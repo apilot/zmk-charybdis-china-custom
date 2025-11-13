@@ -70,7 +70,7 @@
 &kp ESC         &kp N1            &kp N2          &kp N3       &kp N4          &kp N5    &kp N6     &kp N7          &kp N8       &kp N9          &kp N0                    &kp BACKSPACE
 &kp TAB         &kp Q             &kp W           &kp E        &kp R           &kp T     &kp Y      &kp U           &kp I        &kp O           &kp P                     &kp BSLH
 &kp GRAVE       &mt LEFT_SHIFT A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_GUI F  &kp G     &kp H      &mt LEFT_GUI J  &mt LCTRL K  &mt LEFT_ALT L  &mt LEFT_SHIFT SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp Z             &kp X           &kp C        &kp V           &kp B     &kp N      &kp M           &kp COMMA    &kp DOT         &kp FSLH                  &tog 2
+&kp LEFT_SHIFT  &kp Z             &kp X           &kp C        &kp V           &kp B     &kp N      &kp M           &kp COMMA    &kp DOT         &kp FSLH                  &tog 1
                                                   &mo 1        &kp KP_DOT      &mo 3     &kp ENTER  &kp SPACE
                                                                &kt COMMA       &mo 4     &kp DEL
             >;
@@ -78,12 +78,12 @@
 
         F_layers {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6        &kp F7                                &kp F8     &kp F9          &kp F10    &kp F11    &kp F12
-&trans  &none   &none   &none   &none   &trans        &none                                 &kp HOME   &kp UP_ARROW    &kp END    &kp MINUS  &kp EQUAL
-&trans  &none   &none   &none   &none   &trans        &mkp MCLK                             &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &none      &trans
-&trans  &trans  &trans  &trans  &trans  &none         &kp PRINTSCREEN                       &mkp LCLK  &mkp RCLK       &kp INS    &none      &trans
-                        &trans  &trans  &To0_macro    &mkp LCLK                             &mkp RCLK
-                                &trans  &trans        &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT
+&kp F1      &kp F2      &kp F3      &kp F4  &kp F5  &kp F6        &kp F7                                &kp F8     &kp F9          &kp F10    &kp F11    &kp F12
+&To0_macro  &To1_macro  &To2_macro  &none   &none   &trans        &none                                 &kp HOME   &kp UP_ARROW    &kp END    &kp MINUS  &kp EQUAL
+&trans      &none       &none       &none   &none   &trans        &mkp MCLK                             &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &none      &trans
+&trans      &trans      &trans      &trans  &trans  &none         &kp PRINTSCREEN                       &mkp LCLK  &mkp RCLK       &kp INS    &none      &trans
+                                    &trans  &trans  &To0_macro    &mkp LCLK                             &mkp RCLK
+                                            &trans  &trans        &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT
             >;
         };
 
