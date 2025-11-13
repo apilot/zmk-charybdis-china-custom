@@ -111,12 +111,12 @@
 
         snipe-layers {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mkp LCLK  &mkp RCLK  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &mkp LCLK  &mkp RCLK
-                                &trans  &trans    &trans
+&rgb_ug RGB_TOG  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
+&rgb_ug RGB_BRI  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
+&rgb_ug RGB_BRD  &trans  &trans  &trans  &trans  &trans    &trans     &kp H      &kp J   &kp K   &kp L   &trans
+&rgb_ug RGB_EFF  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
+                                 &trans  &trans  &trans    &mkp LCLK  &mkp RCLK
+                                         &trans  &trans    &trans
             >;
         };
     };
